@@ -1,10 +1,13 @@
-Flask @ file:///C:/b/abs_ef16l83sif/croot/flask_1671217367534/work
-joblib @ file:///C:/b/abs_e60_bwl1v6/croot/joblib_1666298845728/work
-keras @ file:///C:/Users/builder/adipietro/mc3/tf210/conda-bld/keras_1669760570649/work/keras-2.10.0-py2.py3-none-any.whl
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-numpy @ file:///C:/b/abs_datssh7cer/croot/numpy_and_numpy_base_1672336199388/work
-requests @ file:///C:/b/abs_80_edxtvhu/croot/requests_1678709752318/work
-requests-oauthlib==1.3.0
-scikit-learn @ file:///C:/b/abs_a0emltxu06/croot/scikit-learn_1680198772090/work
-tensorflow==2.10.0
-tensorflow-estimator @ file:///C:/Users/builder/adipietro/mc3/tf210/conda-bld/tensorflow-estimator_1669761460695/work/tensorflow_estimator-2.10.0-py2.py3-none-any.whl
+flask
+scikit-learn
+joblib
+pandas
+numpy
+tensorflow
+gunicornflask
+scikit-learn
+joblib
+pandas
+numpy
+tensorflow
+gunicorn
