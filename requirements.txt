@@ -4,7 +4,6 @@ joblib
 pandas
 numpy
 tensorflow
-gunicornflask
 scikit-learn
 joblib
 pandas
