@@ -4,9 +4,4 @@ joblib
 pandas
 numpy
 tensorflow
-scikit-learn
-joblib
-pandas
-numpy
-tensorflow
 gunicorn
