@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/post/', methods=['POST'])
 def predict():
     data = request.files['file'] 
-    response = requests.post('https://predict-rate.onrender.com//predict/',  files={'file': data})
+    response = requests.post('https://predict-rate.onrender.com/predict/',  files={'file': data})
     
     # レスポンスのCSVデータを読み込む
     csv_data = io.StringIO(response.text)
