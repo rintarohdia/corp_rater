@@ -3,7 +3,7 @@ from flask import Flask, request,jsonify, Response
 import joblib
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-import tensorflow as tf
+import lightgbm as lgb
 import numpy as np
 import pandas as pd
 import io
@@ -16,10 +16,9 @@ app = Flask(__name__)
 scaler = joblib.load('scaler.pkl')
 
 # 保存されたPCAモデルを読み込む
-pca_model = joblib.load('pca_model.pkl')
+pca_model = joblib.load('pca_model100.pkl')
 
-# モデルを読み込む
-model = tf.keras.models.load_model('model')
+model = lgb.Booster(model_file='lgbmodel')
 
 @app.route('/predict/', methods=['POST'])
 def predict():
